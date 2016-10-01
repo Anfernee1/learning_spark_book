@@ -1,0 +1,485 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Apache Spark 简介 · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="AUnifiedStack.html" />
+    
+    
+    <link rel="prev" href="IntroductiontoDataAnalysiswithApacheSpark.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../foreword.md">
+            
+                <span>
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../preface.md">
+            
+                <span>
+            
+                    
+                    序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="IntroductiontoDataAnalysiswithApacheSpark.html">
+            
+                <a href="IntroductiontoDataAnalysiswithApacheSpark.html">
+            
+                    
+                    第一章：使用Spark进行数据分析，前生和今世
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.1" data-path="WhatisApacheSpark.html">
+            
+                <a href="WhatisApacheSpark.html">
+            
+                    
+                    Apache Spark 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="AUnifiedStack.html">
+            
+                <a href="AUnifiedStack.html">
+            
+                    
+                    统一的技术栈
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="SparkCore.html">
+            
+                <a href="SparkCore.html">
+            
+                    
+                    Spark Core
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="SparkSQL.html">
+            
+                <a href="SparkSQL.html">
+            
+                    
+                    Spark SQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="SparkStreaming.html">
+            
+                <a href="SparkStreaming.html">
+            
+                    
+                    Spark Streaming
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" data-path="MLlib.html">
+            
+                <a href="MLlib.html">
+            
+                    
+                    MLlib
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.5" data-path="GraphX.html">
+            
+                <a href="GraphX.html">
+            
+                    
+                    GraphX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.6" data-path="ClusterManagers.html">
+            
+                <a href="ClusterManagers.html">
+            
+                    
+                    ClusterManagers
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" >
+            
+                <span>
+            
+                    
+                    Spark适用者和用途
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="DataScienceTasks.md">
+            
+                <span>
+            
+                    
+                    数据科学任务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="DataProcessingApplications.md">
+            
+                <span>
+            
+                    
+                    数据处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="ABriefHistoryofSpark.html">
+            
+                <a href="ABriefHistoryofSpark.html">
+            
+                    
+                    Spark简史
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="SparkVersionsandRelease.html">
+            
+                <a href="SparkVersionsandRelease.html">
+            
+                    
+                    Spark发行版
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="StorageLayersforSpark.html">
+            
+                <a href="StorageLayersforSpark.html">
+            
+                    
+                    Spark存储层
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../Chapter2/DownloadingSparkandGettingStarted.md">
+            
+                <span>
+            
+                    
+                    第二章：下载Saprk，开启我们的旅程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Apache Spark 简介</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="IntroductiontoDataAnalysiswithApacheSpark.html" class="navigation navigation-prev " aria-label="Previous page: 第一章：使用Spark进行数据分析，前生和今世">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="AUnifiedStack.html" class="navigation navigation-next " aria-label="Next page: 统一的技术栈">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Apache Spark 简介","level":"1.4.1","depth":2,"next":{"title":"统一的技术栈","level":"1.4.2","depth":2,"path":"Chapter1/AUnifiedStack.md","ref":"Chapter1/AUnifiedStack.md","articles":[{"title":"Spark Core","level":"1.4.2.1","depth":3,"path":"Chapter1/SparkCore.md","ref":"Chapter1/SparkCore.md","articles":[]},{"title":"Spark SQL","level":"1.4.2.2","depth":3,"path":"Chapter1/SparkSQL.md","ref":"Chapter1/SparkSQL.md","articles":[]},{"title":"Spark Streaming","level":"1.4.2.3","depth":3,"path":"Chapter1/SparkStreaming.md","ref":"Chapter1/SparkStreaming.md","articles":[]},{"title":"MLlib","level":"1.4.2.4","depth":3,"path":"Chapter1/MLlib.md","ref":"Chapter1/MLlib.md","articles":[]},{"title":"GraphX","level":"1.4.2.5","depth":3,"path":"Chapter1/GraphX.md","ref":"Chapter1/GraphX.md","articles":[]},{"title":"ClusterManagers","level":"1.4.2.6","depth":3,"path":"Chapter1/ClusterManagers.md","ref":"Chapter1/ClusterManagers.md","articles":[]}]},"previous":{"title":"第一章：使用Spark进行数据分析，前生和今世","level":"1.4","depth":1,"path":"Chapter1/IntroductiontoDataAnalysiswithApacheSpark.md","ref":"Chapter1/IntroductiontoDataAnalysiswithApacheSpark.md","articles":[{"title":"Apache Spark 简介","level":"1.4.1","depth":2,"path":"Chapter1/WhatisApacheSpark.md","ref":"Chapter1/WhatisApacheSpark.md","articles":[]},{"title":"统一的技术栈","level":"1.4.2","depth":2,"path":"Chapter1/AUnifiedStack.md","ref":"Chapter1/AUnifiedStack.md","articles":[{"title":"Spark Core","level":"1.4.2.1","depth":3,"path":"Chapter1/SparkCore.md","ref":"Chapter1/SparkCore.md","articles":[]},{"title":"Spark SQL","level":"1.4.2.2","depth":3,"path":"Chapter1/SparkSQL.md","ref":"Chapter1/SparkSQL.md","articles":[]},{"title":"Spark Streaming","level":"1.4.2.3","depth":3,"path":"Chapter1/SparkStreaming.md","ref":"Chapter1/SparkStreaming.md","articles":[]},{"title":"MLlib","level":"1.4.2.4","depth":3,"path":"Chapter1/MLlib.md","ref":"Chapter1/MLlib.md","articles":[]},{"title":"GraphX","level":"1.4.2.5","depth":3,"path":"Chapter1/GraphX.md","ref":"Chapter1/GraphX.md","articles":[]},{"title":"ClusterManagers","level":"1.4.2.6","depth":3,"path":"Chapter1/ClusterManagers.md","ref":"Chapter1/ClusterManagers.md","articles":[]}]},{"title":"Spark适用者和用途","level":"1.4.3","depth":2,"ref":"","articles":[{"title":"数据科学任务","level":"1.4.3.1","depth":3,"path":"Chapter1/DataScienceTasks.md","ref":"Chapter1/DataScienceTasks.md","articles":[]},{"title":"数据处理","level":"1.4.3.2","depth":3,"path":"Chapter1/DataProcessingApplications.md","ref":"Chapter1/DataProcessingApplications.md","articles":[]}]},{"title":"Spark简史","level":"1.4.4","depth":2,"path":"Chapter1/ABriefHistoryofSpark.md","ref":"Chapter1/ABriefHistoryofSpark.md","articles":[]},{"title":"Spark发行版","level":"1.4.5","depth":2,"path":"Chapter1/SparkVersionsandRelease.md","ref":"Chapter1/SparkVersionsandRelease.md","articles":[]},{"title":"Spark存储层","level":"1.4.6","depth":2,"path":"Chapter1/StorageLayersforSpark.md","ref":"Chapter1/StorageLayersforSpark.md","articles":[]}]},"dir":"neutral"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Chapter1/WhatisApacheSpark.md","mtime":"2016-08-18T13:15:58.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-08-18T13:23:44.956Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
